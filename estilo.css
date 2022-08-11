@@ -1,30 +1,58 @@
 body{
-  background: #yellow;
+  background: cyan
 }
-h1{
+h1 {
   text-align: center;
 }
-.caixa1{
-  position: absolute;
-  background: grey;
-  height: 200px;
+.caixa1 {
+  position:absolute;
+  background: pink;
   width: 200px;
-  color: black;
+  height: 200px;
+  color:  black;
   left: 40%
 }
-.caixa2{
+.caixa2 {
   position: absolute;
   background: pink;
-  height: 200px;
   width: 200px;
-  color: blue;
-  left: 0;
+  heigth: 700px;
+  color: black;
+  left: 55%;
 }
-.menuPrincipal{
+.menuprincipal { 
   position: absolute;
   width: 100%;
-  height: 100px;
-  background: rgb(128, 128, 128);
+  height: 30px;
+  background: rgb(233, 250, 0);
   top: 0;
   left: 0;
+
+
 }
+
+nav ul{ 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+
+}
+
+li{
+float: left;
+
+
+}
+li a {
+  display: block;
+  color: rgb(41, 41, 41);
+  padding: 5px 3px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover{
+  color: brown;
+  background: black;
+}
+
