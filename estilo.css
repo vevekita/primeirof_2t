@@ -1,58 +1,66 @@
 body{
-  background: cyan
+  background: rgb(125, 186, 221);
 }
-h1 {
+h1{
   text-align: center;
 }
-.caixa1 {
-  position:absolute;
-  background: pink;
-  width: 200px;
+.caixa1{
+  position: absolute;
+  background: rgb(124, 39, 223);
   height: 200px;
-  color:  black;
+  width: 200px;
+  color: black;
   left: 40%
 }
-.caixa2 {
+.caixa2{
   position: absolute;
-  background: pink;
+  background: rgb(51, 44, 136);
+  height: 200px;
   width: 200px;
-  heigth: 700px;
-  color: black;
-  left: 55%;
+  color: rgb(3, 3, 19);
+  left: 0;
 }
-.menuprincipal { 
+.menuPrincipal{
   position: absolute;
   width: 100%;
-  height: 30px;
-  background: rgb(233, 250, 0);
+  height: 45px;
+  background: rgb(128, 128, 128);
   top: 0;
   left: 0;
-
-
 }
-
-nav ul{ 
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: 0;
-
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: 0;
 }
-
 li{
-float: left;
-
-
+  float: left;
 }
-li a {
+li a{
   display: block;
-  color: rgb(41, 41, 41);
-  padding: 5px 3px;
+  color: orange;
+  padding: 14px 16px;
   text-align: center;
   text-decoration: none;
 }
 li a:hover{
-  color: brown;
-  background: black;
+  color: coral;
+  background-color: darkred;
 }
-
+#image{
+  width: 30%;
+}
+.boxImage{
+position: absolute;
+width: 100%;
+height: 45px;
+background: rgb(49, 204, 62);
+top: 50px;
+left: 0;
+margin: 20px;
+border-color: blueviolet;
+border-width: 20px;
+border-style: solid;
+padding: 20px;
+}
