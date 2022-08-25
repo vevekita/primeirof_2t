@@ -7,6 +7,9 @@ h1{
   text-align: center;
   
 }
+h2{
+  text-align: center;
+}
 .caixa1{
   position: absolute;
   background: rgb(124, 39, 223);
