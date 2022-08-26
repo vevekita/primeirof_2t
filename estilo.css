@@ -1,76 +1,77 @@
-body{
-  background: #280850;
+body {
+  background: #301e61;
   margin: 0;
   padding: 0;
 }
+
 h1{
   text-align: center;
   color: #f1a517;
 }
+
 h2{
   text-align: center;
   color: #f1a517;
 }
 
-.menuPrincipal{
+.menuprincipal {
   position: absolute;
   width: 100%;
   height: 45px;
-  background:#391463;
+  background: #14113f;
   top: 0;
   left: 0;
 }
 nav ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
-overflow: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
 }
-li{
+li {
   float: left;
 }
-li a{
+
+li a {
   display: block;
   color: #ffe600;
   padding: 14px 16px;
   text-align: center;
   text-decoration: none;
 }
-li a:hover{
-  color: #ffe400;
-  background-color:#4c277e;
+li a:hover {
+  color: #ffc400;
+  background-color: #4c277e;
 }
+
 #image{
   width: 1500px;
 }
 
-.conteudo{
+.conteudo {
   position: absolute;
   top: 45px;
   width: 100%;
-  color: #fcff33;
-  
-}
-#rodape{
-  width: 100%;
-  height: 35px;
-  background: #4c277e;
   color: #fff173;
 }
-.lista{
-  display: list-item;
-  float: none;
+
+#rodape {
+  width: 100%;
+  height: 35px;
+  background-color: #4c277e;
+  color: #fff173;
 }
-.Classificação{
-  display: list-item;
-  float: none;
+
+.lista {
+  display: contents;
 }
+
 .boxImage {
   display: flex;
   justify-content: center;
   position: absolute;
   width: 1200px;
-  height: 400px;
+  height: 450px;
   background-color: #14113f;
   top: 60px;
   left: 0;
@@ -79,12 +80,12 @@ li a:hover{
   border-width: 20px;
   border-style: solid;
   padding: 20px;
-  color: #ffc400;
+  color: #ffd64e;
 }
 
 .conteudo2 {
   position: absolute;
-  top: 0;
+  top: 45px;
   width: 100%;
   color: #fff173;
 }
@@ -93,6 +94,13 @@ li a:hover{
   width: 600px;
   left: 0px;
 }
-#imagem{
-  width: 1500px;
+
+.Classificação{
+  display: list-item;
+  float: none;
+}
+
+.lista{
+  display: list-item;
+  float: none;
 }
